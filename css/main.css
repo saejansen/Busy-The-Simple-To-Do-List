@@ -19,7 +19,6 @@ header {
   top: 0;
   left: 0;
   position: absolute;
-
 }
 header input {
   width: 80%;
@@ -50,7 +49,7 @@ header button {
 
 }
 .container {
-width: 100%;
+width: 50%;
 float:left;
 padding: 15px;
 
@@ -62,11 +61,9 @@ header button svg {
 
 }
 ul.todo {
-  width: : 100%
-  float: left;
+  width: : 100%;
 }
 ul.todo li {
-  width: 600px;
   height: 50px;
   font-size: 25px;
   line-height: 45px;
@@ -74,38 +71,44 @@ ul.todo li {
   text-indent: 25px;
   background: #0A405A;
   border-radius: 5px;
+  padding:0 60px;
+  display:inline-block;
+  vertical-align:top;
   position: relative;
-  margin: 0 0 10px 10px;
-  list-style-type: none;
-  overflow: hidden;
-
+  border: 15px;
+  margin-bottom: 20px;
+  margin-right: 50px
 }
 ul.todo li .button {
-  width: 50px;
+  width: 20px;
   height: 50px;
-  position: absolute;
-  top: 0;
+  position:absolute;
+  bottom: 0;
   right: 0;
-}
-ul.todo li .button button {
-  width: 50px;
-  height: 50px;
-  float: left;
-  background: #0A405A;
-  border: 0px;
-  box-shadow: none;
-  outline: none;
-  cursor: pointer;
+
 }
 ul.todo li .button button svg {
   width: 30px;
   height: 30px;
   position: absolute;
-  top: 50%;
-  left: 50%auto;
-  margin: -16px 0 0 -11px
+  float: left;
+  top: 10px;
+  left: 10px;
 }
+ul.todo li .button button {
+  width: 50px;
+  height: 50px;
+  background: #0A405A;
+  border: 0px;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  float: left;
+  outline: none;
 
+
+}
 }
 .clock {
   width: 200px;
@@ -129,8 +132,8 @@ ul.todo li .button button svg {
   height: 30px;
   left: 1402px;
   position: absolute;
-  top: 354px;
-  left: 1406px;
+  top: 350px;
+  left: 1402px;
   transform-origin: 50% 80%;
   width: 7px;
   z-index: 8;
