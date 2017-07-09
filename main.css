@@ -1,7 +1,6 @@
 body, input {
   font-family: 'Raleway', sans-serif;
 }
-
 body {
   background-color: #8FB4BD;
   padding: 80px 0 0 0;
@@ -11,6 +10,23 @@ body {
   background-position: 500px 80px;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+::-webkit-input-placeholder {
+    color:    white;
+}
+:-moz-placeholder {
+   color:    white;
+   opacity:  1;
+}
+::-moz-placeholder {
+   color:    white;
+   opacity:  1;
+}
+:-ms-input-placeholder {
+   color:    white;
+}
+::-ms-input-placeholder { 
+   color:    white;
 }
 header {
   height: 80px;
@@ -196,6 +212,7 @@ backface-visibility: hidden;
 perspective: 1000px;
 }
 @keyframes shake {
+-webkit-transform: translate3d(0,0,0);
   10%, 90% {
     transform: translate3d(0, -1px, 0);
   }
